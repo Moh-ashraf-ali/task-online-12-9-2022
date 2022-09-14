@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-header{
-width: 100%;
+
+header {
+    width: 100%;
 }
+
 .navbar {
     width: 100%;
     margin: auto;
@@ -13,51 +15,63 @@ width: 100%;
     background-color: white;
 
 }
-.navbar-toggler , .navbar-toggler-icon .togo{
+
+.navbar-toggler,
+.navbar-toggler-icon .togo {
     color: black !important;
 }
+
 .navbar-brand>img {
     width: 200px;
 }
+
 .navbar .collapse ul li {
     margin: 10px 10px;
 }
+
 .navbar .collapse ul li a {
     color: #00366F !important;
     font-size: 20px;
     padding: 10px 15px !important;
 }
+
 .navbar .collapse ul li a:hover {
     color: #1C4FC3 !important;
 }
+
 .navbar .collapse ul .home {
     color: #1C4FC3 !important;
 }
+
 .navbar .collapse ul li :hover {
     background-color: white;
     border-radius: 20px;
     color: black !important;
 }
+
 /* end nav bar */
-.fisrtSec{
+.fisrtSec {
     width: 100%;
     background-image: url(../Image/hero-bg.png);
     background-size: 100% 100%;
-padding: 150px 0px;
+    padding: 150px 0px;
     margin-top: 100px;
 }
-.fisrtSec .ProvideSolution h1 , h2{
+
+.fisrtSec .ProvideSolution h1,
+h2 {
     color: white;
     font-weight: 700;
-    font-size : 60px;
+    font-size: 60px;
 }
-.fisrtSec .ProvideSolution h2{
+
+.fisrtSec .ProvideSolution h2 {
 
     text-decoration: underline;
     color: #1f95da;
 }
 
-.ProvideSolution .butt1{
+.ProvideSolution .butt1 {
     margin-right: 30px;
     padding: 10px 35px !important;
     border-radius: 50px;
@@ -66,12 +80,14 @@ padding: 150px 0px;
     border: 2px solid transparent;
     margin-bottom: 30px;
 }
-.ProvideSolution .butt1:hover{
+
+.ProvideSolution .butt1:hover {
     border: 2px solid white;
     background-color: #1845AB;
 }
-.ProvideSolution .butt2{
-   background-color: transparent;
+
+.ProvideSolution .butt2 {
+    background-color: transparent;
     padding: 10px 35px !important;
     border-radius: 50px;
     font-size: 22px;
@@ -81,60 +97,124 @@ padding: 150px 0px;
     margin-right: 30px;
 
 }
-.ProvideSolution .butt2:hover{
+
+.ProvideSolution .butt2:hover {
     background-color: #2f80d1;
     border: 2px solid transparent;
 
 }
+
 /* end first section */
 .about {
     padding-top: 50px;
 }
-.about .abouth1{
-    color: #373636 ;
+
+.about .abouth1 {
+    color: #373636;
     text-align: center;
- font-size: 45px;
+    font-size: 45px;
 }
-.about .row{
+
+.about>.row {
     padding-top: 7px;
 }
-.abouticon .ico i{
-font-size: 30px;
-text-align: center;
-padding-top: 20px;
-    padding-left: 10px;
+
+.abouticon .ico i {
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #1C4FC3;
+    border-radius: 50%;
+    padding: 10px;
+transition: all 0.5;
 }
 .abouticon .ico{
-    width: 50px;
-    height: 70px;
-    border: 2px solid #1C4FC3 ;
-    border-radius: 50%;
-    color:  #1C4FC3 ;
+    text-align: center;
 }
-.abouticon .ico:hover {
+
+.abouticon .ico:hover i{
     color: white;
-    background-color:#1C4FC3 ;
+    background-color: #1C4FC3;
 }
-.abouticon .ico:hover a {  
-      color: white;
+.abouticon .ico i:hover {
+    color: white;
+    background-color: #1C4FC3;
 }
-.row1{
+.row1 {
     margin-bottom: 70px;
 }
-.row2{
+
+.row2 {
     margin-top: 80px;
 }
-.inf2 h3{
+
+.inf2 h3 {
     margin-bottom: 20px;
 }
-.row3{
+
+.row3 {
     margin-top: 80px;
- 
+
 }
-.inf2>h3{
+
+.inf2>h3 {
     font-weight: 700;
 }
 
+/*  end about us section */
+
+.service {
+    padding-top: 50px;
+    background-color: #ECF5FF;
+}
+
+.service .SeviceItem {
+    background-color: white;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 20px;
+    margin: 20px;
+    transition: all 0.5s;
+}
+
+.service .SeviceItem:hover {
+    transform: translateY(-15px);
+}
+
+.service .SeviceItem .SerIcon i {
+    color: #FF689B;
+    font-size: 80px;
+    position: relative;
+    left: -30px;
+    margin-top: 15px;
+}
+
+/* end service section */
+
+.choose{
+    padding: 50px;
+    background-color: #004A99;
+    color: white;
+}
+
+.choose .chooseItem{
+    padding: 30px 20px;
+    margin : 20px 0px ;
+    background-color: #0a488a;
+    border-radius: 20px;
+    transition: all 0.5;
+}
+.choose .chooseItem:hover{
+    background-color:#003B7A;
+
+}
+.choose .chooseItem>i{
+    color:#BFDDFE;
+    font-size: 60px;
+/* margin-bottom: 15px; */
+}
+.choose .chooseItem>a{
+    color: white;
+}
 
 
 
@@ -144,45 +224,100 @@ padding-top: 20px;
 
 
 
-
-
-
-
-
-
-
-@media(max-width:720px){
+@media(max-width:720px) {
     .navbar {
         width: 100%;
-        padding: 25px  25px;
+        padding: 25px 25px;
 
     }
-    .navbar-toggler , .navbar-toggler-icon .togo{
-        color: black !important;
-    }
+
     /* navbar */
-    .fisrtSec{
+    .fisrtSec {
         text-align: center;
         padding: 50px 0px;
-        }
-    .fisrtSec .ProvideSolution h1 , h2{
-        font-weight: 700;
-        font-size : 45px;
-    
     }
-    .fisrtSec .photo{
+
+    .fisrtSec .ProvideSolution h1,
+    h2 {
+        font-weight: 700;
+        font-size: 45px;
+
+    }
+
+    .fisrtSec .photo {
         margin-bottom: 20px;
     }
-.fisrtSec .row{
-    flex-direction: column-reverse;
-}
-.row2{
-    flex-direction: column-reverse;
-}
-.row3{
-    flex-direction: column-reverse;
 
-}
+    .fisrtSec .row {
+        flex-direction: column-reverse;
+    }
+
+    .row2 {
+        flex-direction: column-reverse;
+    }
+
+    .row3 {
+        flex-direction: column-reverse;
+
+    }
+
+
+    /*,lklkoko  */
+    .abouticon .ico i {
+        font-size: 30px;
+        text-align: center;
+        border: 2px solid #1C4FC3;
+        border-radius: 50%;
+        padding: 10px;
+    transition: all 0.5;
+    position: relative;
+    top: 80px;
+
+    }
+    .abouticon  .inf{
+        padding-left: 90px;
+    } 
+    .abouticon .ico{
+        text-align: start;
+    }
+    
+
+    /* end about us section*/
+    .service .SeviceItem {
+        padding: px;
+
+        margin: 10px 0px;
+    }
+
+    .SeviceItem .row {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .SeviceItem .row .col-md-2,
+    .col-md-10 {
+
+        padding-right: 0px;
+        padding-left: 0px
+    }
+
+    .service .SeviceItem .SerIcon i {
+        font-size: 70px;
+        left: -35px;
+        top: 90px;
+        margin-top: 0px;
+    }
+
+    .service .SeviceItem .descreption {
+        position: relative;
+        left: 20px;
+        padding-left: 30px;
+    }
+
+
+
 
 
 
